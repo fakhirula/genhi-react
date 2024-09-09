@@ -1,4 +1,5 @@
 // import { Link } from 'react-router-dom';
+import Assets from '../Assets/img/icon.svg';
 
 function Header() {
   return (
@@ -29,7 +30,7 @@ function Header() {
                     <a href="#join" className="py-2 px-3 text-teal font-semibold border-2 border-teal hover:text-white hover:bg-teal rounded-md transition ease-in-out delay-50 duration-500">Bergabung</a>
                 </div>
                 <div className="block lg:hidden">
-                    <img src="./assets/images/icon.svg" className="max-h-12" alt=""/>
+                    <img src={Assets} className="max-h-12" alt=""/>
                 </div>
             </section>
             <section id="header-nav" className="hidden lg:block">

@@ -1,4 +1,5 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import Assets from '../Assets/img/logo.svg';
 
 function Footer() {
   return (
@@ -6,7 +7,7 @@ function Footer() {
         <section id="footer-web" className="grid grid-rows-1 lg:grid-cols-12 justify-between item gap-12">
             <div className="w-full lg:col-span-4 flex flex-col gap-5">
                 <div className="">
-                    <img src="./assets/images/logo.svg" className="max-w-48" alt=""/>
+                    <img src={Assets} className="max-w-48" alt=""/>
                 </div>
                 <p className="text-lg font-semibold">Website Penggalangan Dana Online untuk Konservasi Hutan dan Lingkungan.</p>
                 <div className="flex flex-col gap-3">
