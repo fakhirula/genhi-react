@@ -4,7 +4,7 @@ import Assets from '../Assets/img/icon.svg';
 function Header() {
   return (
     <header className="shadow-md">
-        <div className="container mx-auto flex flex-col">
+        <div className="container max-w-7xl mx-auto flex flex-col">
             <section id="brand" className="flex justify-between items-center border-b border-b-gray py-3">
                 <div className="block lg:hidden">
                     <i className="fa-solid fa-2x fa-bars"></i>

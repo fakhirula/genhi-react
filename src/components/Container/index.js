@@ -1,6 +1,6 @@
 function Container({ children }) {
     return (
-        <main className="container mx-auto">{children}</main>
+        <main className="container max-w-7xl mx-auto">{children}</main>
     );
 }
 

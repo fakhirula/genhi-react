@@ -3,7 +3,7 @@ import Assets from '../Assets/img/logo.svg';
 
 function Footer() {
   return (
-    <footer className="container mx-auto min-w-min grid grid-flow-row gap-10 pt-8 pb-10">
+    <footer className="container max-w-7xl mx-auto min-w-min grid grid-flow-row gap-10 pt-8 pb-10">
         <section id="footer-web" className="grid grid-rows-1 lg:grid-cols-12 justify-between item gap-12">
             <div className="w-full lg:col-span-4 flex flex-col gap-5">
                 <div className="">
