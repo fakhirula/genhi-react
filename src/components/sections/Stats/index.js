@@ -1,10 +1,9 @@
-// import { Link } from 'react-router-dom';
 
-function Stats() {
+function Stats({title}) {
     return (
       <section id="stats" className="flex flex-col items-center gap-y-12 pt-10 mb-24 transition-all duration-700 ease-in-out">
           <div>
-              <h2 className="text-4xl font-semibold">Kamu Gak Sendirian</h2>
+              <h2 className="text-4xl font-semibold">{title}</h2>
           </div>
           <div className="w-full">
               <div className="px-4 bg-white">

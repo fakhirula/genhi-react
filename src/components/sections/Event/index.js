@@ -1,10 +1,10 @@
 // import { Link } from 'react-router-dom';
-import Assets from '../Assets/img/commit-rohdi-biizul-mujib-unsplash.jpg';
-import Logo1 from '../Assets/img/logo/logoipsum-1.svg';
-import Logo2 from '../Assets/img/logo/logoipsum-2.svg';
-import Logo3 from '../Assets/img/logo/logoipsum-3.svg';
-import Logo4 from '../Assets/img/logo/logoipsum-4.svg';
-import Logo5 from '../Assets/img/logo/logoipsum-5.svg';
+import Assets from '../../Assets/img/commit-rohdi-biizul-mujib-unsplash.jpg';
+import Logo1 from '../../Assets/img/logo/logoipsum-1.svg';
+import Logo2 from '../../Assets/img/logo/logoipsum-2.svg';
+import Logo3 from '../../Assets/img/logo/logoipsum-3.svg';
+import Logo4 from '../../Assets/img/logo/logoipsum-4.svg';
+import Logo5 from '../../Assets/img/logo/logoipsum-5.svg';
 
 function Event() {
     return (
@@ -36,11 +36,11 @@ function Event() {
               </div>
               
               <div className="flex items-center pt-5 justify-between">
-                <button className="px-2 opacity-50 hover:opacity-100 focus:opacity-100"><img className="w-full" src={Logo1} alt="" style={{ maxHeight: "60px" }}/></button>
-                <button className="px-2 opacity-50 hover:opacity-100 focus:opacity-100"><img className="w-full" src={Logo2} alt="" style={{ maxHeight: "60px" }}/></button>
-                <button className="px-2 opacity-50 hover:opacity-100 focus:opacity-100"><img className="w-full" src={Logo3} alt="" style={{ maxHeight: "60px" }}/></button>
-                <button className="px-2 opacity-50 hover:opacity-100 focus:opacity-100"><img className="w-full" src={Logo4} alt="" style={{ maxHeight: "60px" }}/></button>
-                <button className="px-2 opacity-100 hover:opacity-100 focus:opacity-100"><img className="w-full" src={Logo5} alt="" style={{ maxHeight: "60px" }}/></button>
+                <button className="px-2 opacity-50 hover:opacity-100 focus:opacity-100 transition ease-in-out duration-500"><img className="w-full" src={Logo1} alt="" style={{ maxHeight: "60px" }}/></button>
+                <button className="px-2 opacity-50 hover:opacity-100 focus:opacity-100 transition ease-in-out duration-500"><img className="w-full" src={Logo2} alt="" style={{ maxHeight: "60px" }}/></button>
+                <button className="px-2 opacity-50 hover:opacity-100 focus:opacity-100 transition ease-in-out duration-500"><img className="w-full" src={Logo3} alt="" style={{ maxHeight: "60px" }}/></button>
+                <button className="px-2 opacity-50 hover:opacity-100 focus:opacity-100 transition ease-in-out duration-500"><img className="w-full" src={Logo4} alt="" style={{ maxHeight: "60px" }}/></button>
+                <button className="px-2 opacity-50 hover:opacity-100 focus:opacity-100 transition ease-in-out duration-500"><img className="w-full" src={Logo5} alt="" style={{ maxHeight: "60px" }}/></button>
               </div>
         </section>
     );

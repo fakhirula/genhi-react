@@ -1,4 +1,4 @@
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Assets from '../Assets/img/icon.svg';
 
 function Header() {
@@ -10,7 +10,7 @@ function Header() {
                     <i className="fa-solid fa-2x fa-bars"></i>
                 </div>
                 <div className="w-full lg:w-1/2">
-                    <h1 className="text-center lg:text-left text-teal text-2xl font-semibold"><a href="">GenerasiHijau</a></h1>
+                    <h1 className="text-center lg:text-left text-teal text-2xl font-semibold"><Link to="">GenerasiHijau</Link></h1>
                 </div>
                 <div className="hidden lg:w-1/2 lg:flex justify-end items-center gap-5">
                     <form className="w-3/5">   
@@ -27,7 +27,7 @@ function Header() {
                             </div>
                         </div>
                     </form>
-                    <a href="#join" className="py-2 px-3 text-teal font-semibold border-2 border-teal hover:text-white hover:bg-teal rounded-md transition ease-in-out delay-50 duration-500">Bergabung</a>
+                    <Link to="#join" className="py-2 px-3 text-teal font-semibold border-2 border-teal hover:text-white hover:bg-teal rounded-md transition ease-in-out delay-50 duration-500">Bergabung</Link>
                 </div>
                 <div className="block lg:hidden">
                     <img src={Assets} className="max-h-12" alt=""/>
@@ -46,14 +46,14 @@ function Header() {
                         <div id="dropdown-solusi" className="z-10 hidden bg-white divide-y divide-gray-100 rounded-md shadow w-44">
                             <ul className="py-2 text-sm text-gray-700" aria-labelledby="solusi">
                                 <li>
-                                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">Perusahaan</a>
+                                    <Link to="/solusi#perusahaan" className="block px-4 py-2 hover:bg-gray-100">Perusahaan</Link>
                                 </li>
                                 <li>
-                                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">Individu</a>
+                                    <Link to="/solusi#individu" className="block px-4 py-2 hover:bg-gray-100">Individu</Link>
                                 </li>
                             </ul>
                         </div>
-                        <li><a href="" className="text-teal font-semibold">Galeri</a></li>
+                        <li><Link to="/galeri" className="text-teal font-semibold">Galeri</Link></li>
                         <li>
                             <button id="carbon" data-dropdown-toggle="dropdown-carbon" data-dropdown-trigger="hover" className="text-teal font-semibold text-center inline-flex items-center focus:outline-none" type="button">Carbon
                                 <svg className="w-2.5 h-2.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
@@ -64,18 +64,18 @@ function Header() {
                         <div id="dropdown-carbon" className="z-10 hidden bg-white divide-y divide-gray-100 rounded-md shadow w-44">
                             <ul className="py-2 text-sm text-gray-700" aria-labelledby="carbon">
                                 <li>
-                                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">Tujuan</a>
+                                    <Link to="/karbon#tujuan" className="block px-4 py-2 hover:bg-gray-100">Tujuan</Link>
                                 </li>
                                 <li>
-                                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">Rumus Karbon</a>
+                                    <Link to="/karbon#rumus" className="block px-4 py-2 hover:bg-gray-100">Rumus Karbon</Link>
                                 </li>
                                 <li>
-                                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">Hitung Karbon</a>
+                                    <Link to="/karbon#hitung" className="block px-4 py-2 hover:bg-gray-100">Hitung Karbon</Link>
                                 </li>
                             </ul>
                         </div>
-                        <li><a href="" className="text-teal font-semibold">Forum</a></li>
-                        <li><a href="" className="text-teal font-semibold">Tentang Kami</a></li>
+                        <li><Link to="/forum" className="text-teal font-semibold">Forum</Link></li>
+                        <li><Link to="/tentang" className="text-teal font-semibold">Tentang Kami</Link></li>
                     </ul>
                 </nav>
             </section>

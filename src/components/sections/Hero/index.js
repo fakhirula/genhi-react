@@ -1,12 +1,12 @@
-// import { Link } from 'react-router-dom';
-import Assets from '../Assets/img/hero.png';
+import { Link } from 'react-router-dom';
+import Assets from '../../Assets/img/hero.png';
 
-function Hero() {
+function Hero({title}) {
     return (
-      <section id="hero" className="pt-16 pb-16 mb-12 transition-all duration-700 ease-in-out">
+      <section id="hero" className="pt-10 pb-16 mb-12 transition-all duration-700 ease-in-out">
           <div className="bg-smoke py-12 lg:pb-0 grid rounded-md lg:rounded-none lg:gap-y-12">
               <div className="p-4 lg:px-12 lg:w-4/5">
-                  <h2 className="text-4xl lg:text-6xl font-semibold tracking-tight">Bersama Jaga Bumi Untuk Generasi Selanjutnya</h2>
+                  <h2 className="text-4xl lg:text-6xl font-semibold tracking-tight">{title}</h2>
               </div>
               <div className="grid grid-flow-col lg:grid-cols-2 lg:items-end">
                   <div className="col-span-1 flex flex-col gap-32">
@@ -15,8 +15,8 @@ function Hero() {
                               pohon  dan menciptakan dunia yang lebih indah 
                               dan asri untuk kita, dia, dan semua.</p>
                           <div className="flex flex-row items-center gap-3">
-                              <a href="" className="bg-teal text-white border-2 border-teal hover:text-teal hover:bg-transparent hover:border-2 hover:border-teal font-semibold py-2 px-3 rounded-md  transition ease-in-out delay-50 duration-500">Eksplorasi</a>
-                              <a href="" className="bg-transparent text-teal border-2 border-teal hover:bg-teal hover:text-white font-semibold py-2 px-3 rounded-md  transition ease-in-out delay-50 duration-500">Lihat Video</a>
+                              <Link to="" className="bg-teal text-white border-2 border-teal hover:text-teal hover:bg-transparent hover:border-2 hover:border-teal font-semibold py-2 px-3 rounded-md  transition ease-in-out delay-50 duration-500">Eksplorasi</Link>
+                              <Link to="" className="bg-transparent text-teal border-2 border-teal hover:bg-teal hover:text-white font-semibold py-2 px-3 rounded-md  transition ease-in-out delay-50 duration-500">Lihat Video</Link>
                           </div>
                       </div>
                       <div className="hidden lg:block relative">

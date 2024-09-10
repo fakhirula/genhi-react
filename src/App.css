@@ -803,6 +803,10 @@ video {
   max-width: 12rem;
 }
 
+.max-w-7xl {
+  max-width: 80rem;
+}
+
 .max-w-screen-xl {
   max-width: 1440px;
 }
@@ -1342,6 +1346,10 @@ video {
 
 .duration-700 {
   transition-duration: 700ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
 }
 
 .ease-in-out {

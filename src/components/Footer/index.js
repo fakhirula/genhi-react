@@ -1,4 +1,4 @@
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Assets from '../Assets/img/logo.svg';
 
 function Footer() {
@@ -14,32 +14,32 @@ function Footer() {
                     <p>GenerasiHijau resmi berbadan hukum dan memiliki Izin Pengumpulan Donasi
                         pada SK Kemensos No. 123/HUK-PS/2024.</p>
                     <div className="flex flex-row gap-5">
-                        <a href=""><i className="fa-brands fa-lg fa-instagram"></i></a>
-                        <a href=""><i className="fa-brands fa-lg fa-x-twitter"></i></a>
-                        <a href=""><i className="fa-brands fa-lg fa-facebook-f"></i></a>
-                        <a href=""><i className="fa-brands fa-lg fa-tiktok"></i></a>
-                        <a href=""><i className="fa-brands fa-lg fa-youtube"></i></a>
+                        <Link to=""><i className="fa-brands fa-lg fa-instagram"></i></Link>
+                        <Link to=""><i className="fa-brands fa-lg fa-x-twitter"></i></Link>
+                        <Link to=""><i className="fa-brands fa-lg fa-facebook-f"></i></Link>
+                        <Link to=""><i className="fa-brands fa-lg fa-tiktok"></i></Link>
+                        <Link to=""><i className="fa-brands fa-lg fa-youtube"></i></Link>
                     </div>
                 </div>
             </div>
             <div className="w-full lg:col-span-2 flex flex-col gap-5">
                 <p className="font-semibold">Informasi</p>
                 <ul className="flex flex-col gap-1">
-                    <li><a href="" className="text-teal font-semibold">Syarat dan Ketentuan</a></li>
-                    <li><a href="" className="text-teal font-semibold">Kebijakan Privasi</a></li>
-                    <li><a href="" className="text-teal font-semibold">FAQ</a></li>
-                    <li><a href="" className="text-teal font-semibold">Karir</a></li>
+                    <li><Link to="" className="text-teal font-semibold">Syarat dan Ketentuan</Link></li>
+                    <li><Link to="" className="text-teal font-semibold">Kebijakan Privasi</Link></li>
+                    <li><Link to="" className="text-teal font-semibold">FAQ</Link></li>
+                    <li><Link to="" className="text-teal font-semibold">Karir</Link></li>
                 </ul>
             </div>
             <div className="w-full lg:col-span-2 flex flex-col gap-5">
                 <p className="font-semibold">Solusi Bisnis</p>
                 <ul className="flex flex-col gap-1">
-                    <li><a href="" className="text-teal font-semibold">Pendukung</a></li>
-                    <li><a href="" className="text-teal font-semibold">Penggerak</a></li>
-                    <li><a href="" className="text-teal font-semibold">Dampak Positif</a></li>
-                    <li><a href="" className="text-teal font-semibold">Collaboratree</a></li>
-                    <li><a href="" className="text-teal font-semibold">Corporatree</a></li>
-                    <li><a href="" className="text-teal font-semibold">Mitra Hijau</a></li>
+                    <li><Link to="" className="text-teal font-semibold">Pendukung</Link></li>
+                    <li><Link to="" className="text-teal font-semibold">Penggerak</Link></li>
+                    <li><Link to="" className="text-teal font-semibold">Dampak Positif</Link></li>
+                    <li><Link to="" className="text-teal font-semibold">Collaboratree</Link></li>
+                    <li><Link to="" className="text-teal font-semibold">Corporatree</Link></li>
+                    <li><Link to="" className="text-teal font-semibold">Mitra Hijau</Link></li>
                 </ul>
             </div>
             <div className="w-full lg:col-span-4 flex flex-col items-center gap-5">
